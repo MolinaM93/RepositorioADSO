@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+marquee {
+  background-color:green;
+  color: #fff;
+  position: sticky;
+  top: 0px;
+  right: 0px;
+}
+
+article div img {
+  align-items: center;
+  height: 100px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px #424242;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+article p {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+.texto{
+  text-align: justify;
+}
+
+.titulo{
+  text-align: center;
+}
+
+/*div img {
+  align-items: center;
+  height: 600px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px #424242;
+  padding: 10px;
+  border: 1px solid #000;
+}*/
+
+/*.imagen{
+  display: flex;
+  justify-content: center;
+}*/
+
+.transform:hover {
+  transform: rotate(-15deg);
+}
+
+section {
+  text-align: center;
+}
+
+img a {
+  text-decoration: none;
+}
+
+.cotizacion {
+  color: #fff;
+  font-size: 30px;
+  background-color: forestgreen;
+  margin: 30px;
+  padding: 20px;
+}
+
+.cotizacion1 {
+  color: #fff;
+  font-size: 15px;
+  background-color: forestgreen;
+  margin: 5px;
+  padding: 15px;
+}
+
+.cotizacion:hover {
+  background: #ff8000;
+}
+
+.cotizacion1:hover {
+  background: #ff8000;
+}
+
+thead {
+  color: forestgreen;
+}
+
+form {
+  width: 90%;
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+}
+
+.formulario{
+  
+  width: 40%;
+  border: 1px solid #ccc;
+  margin: auto;
+  padding: 20px;
+}
+
+form input {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 40%;
+  padding: 10px;
+  resize: vertical;
+  min-height: 100px;
+  max-height: 300px;
+}
+
+.boton {
+  background: #1668c4;
+  color: #fff;
+  margin-left: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.derecha{
+  margin-left: 250px;
+  }
+
+.izquierda{
+  margin-right: 250px;
+  }
+
+  .centrado{
+    text-align: center;
+  }
+
+  table{
+    margin: auto;
+  }
+
+  /*footer{
+    text-align: center;
+    padding: 5px 10px;
+  }*/
+
+  footer{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    color: white;
+    font-size: large;
+}
+
+footer p{
+    text-align: justify;
+    padding: 0px 35px;
+}
+
+.contenido{
+  display: flex;
+  margin: 60px;
+}
+
+.articulos{
+  width: 100%;
+}
+
+.secciones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.imagen{
+  display: flex;
+  justify-content: center;
+}
+
+div img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border-radius: 10px;
+  padding: 0px;
+}
